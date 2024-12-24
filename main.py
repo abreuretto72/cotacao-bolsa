@@ -13,9 +13,7 @@ def carregar_dados(empresas):
     return df
 
 
-#acoes = ['ITUB4.SA', 'PETR4.SA', 'VALE3.SA', 'BBDC4.SA', 'ABEV3.SA', 'B3SA3.SA', 'ITSA4.SA', 'PETR3.SA', 'BBAS3.SA', 'BBDC3.SA']
 
-#dados = carregar_dados(acoes)
 
 st.title('Histórico de cotação na Bolsa de Valores')
 st.write('Aqui você pode visualizar o histórico de cotação de ações da bolsa de valores')
